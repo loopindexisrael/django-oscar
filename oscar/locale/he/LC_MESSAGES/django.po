@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: django-oscar\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-23 17:09+0200\n"
-"PO-Revision-Date: 2015-05-11 09:26+0221\n"
+"PO-Revision-Date: 2015-05-11 09:45+0221\n"
 "Last-Translator:   <orih@loopindex.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/projects/p/django-oscar/language/he/)\n"
 "Language: he\n"
@@ -618,7 +618,7 @@ msgstr "נדרש משלוח?"
 
 #: apps/catalogue/abstract_models.py:55
 msgid "Track stock levels?"
-msgstr "עקוב אחר רמת מלאי?"
+msgstr "מעקב אחר רמת מלאי?"
 
 #: apps/catalogue/abstract_models.py:62 apps/catalogue/abstract_models.py:1108
 msgid "Options"
@@ -700,7 +700,7 @@ msgstr ""
 
 #: apps/catalogue/abstract_models.py:267 apps/catalogue/abstract_models.py:781 apps/dashboard/catalogue/tables.py:23 templates/oscar/dashboard/catalogue/product_class_delete.html:13
 msgid "Product type"
-msgstr ""
+msgstr "סוג מוצר"
 
 #: apps/catalogue/abstract_models.py:268
 msgid "Choose what type of product this is"
@@ -1751,7 +1751,7 @@ msgstr ""
 
 #: apps/dashboard/catalogue/views.py:142
 msgid "Please choose a product type"
-msgstr ""
+msgstr "ביחרו סוג מוצר"
 
 #: apps/dashboard/catalogue/views.py:260
 #, python-format
@@ -1822,20 +1822,20 @@ msgstr ""
 
 #: apps/dashboard/catalogue/views.py:620
 msgid "Add a new product type"
-msgstr ""
+msgstr "הוספת סוג מוצר חדש"
 
 #: apps/dashboard/catalogue/views.py:624
 msgid "Product type created successfully"
-msgstr ""
+msgstr "סוג מוצר נוצר בהצלחה"
 
 #: apps/dashboard/catalogue/views.py:636 apps/offer/models.py:807 defaults.py:100 templates/oscar/dashboard/catalogue/product_class_list.html:25
 msgid "Product Types"
-msgstr ""
+msgstr "סוגי מוצרים"
 
 #: apps/dashboard/catalogue/views.py:647
 #, python-format
 msgid "Update product type '%s'"
-msgstr ""
+msgstr "עדכון סוג מוצר '%s'"
 
 #: apps/dashboard/catalogue/views.py:651
 msgid "Product type update successfully"
@@ -4656,7 +4656,7 @@ msgstr "מידע על המוצר"
 
 #: templates/oscar/catalogue/detail.html:112 templates/oscar/dashboard/catalogue/product_class_form.html:16 templates/oscar/dashboard/catalogue/product_class_list.html:11 templates/oscar/dashboard/orders/line_detail.html:50
 msgid "Product Type"
-msgstr ""
+msgstr "סוג מוצר"
 
 #: templates/oscar/catalogue/detail.html:122
 msgid "Price (incl. tax)"
@@ -5704,19 +5704,19 @@ msgstr ""
 
 #: templates/oscar/dashboard/catalogue/product_class_list.html:17
 msgid "Create new product type"
-msgstr ""
+msgstr "יצירת סוג מוצר חדש"
 
 #: templates/oscar/dashboard/catalogue/product_class_list.html:18
 msgid "Product types"
-msgstr ""
+msgstr "סוגי מוצרים"
 
 #: templates/oscar/dashboard/catalogue/product_class_list.html:29
 msgid "Requires shipping"
-msgstr ""
+msgstr "נדרש משלוח"
 
 #: templates/oscar/dashboard/catalogue/product_class_list.html:30
 msgid "Track stock?"
-msgstr ""
+msgstr "מעקב אחר מלאי?"
 
 #: templates/oscar/dashboard/catalogue/product_class_list.html:47
 msgid "Edit product type"
@@ -5724,7 +5724,7 @@ msgstr ""
 
 #: templates/oscar/dashboard/catalogue/product_class_list.html:58
 msgid "There are no product types."
-msgstr ""
+msgstr "אין סוגי מוצרים."
 
 #: templates/oscar/dashboard/catalogue/product_delete.html:40
 #, python-format
@@ -5789,7 +5789,7 @@ msgstr ""
 
 #: templates/oscar/dashboard/catalogue/product_update.html:149
 msgid "Product Type:"
-msgstr ""
+msgstr "סוג מוצר:"
 
 #: templates/oscar/dashboard/catalogue/product_update.html:170
 msgid "Upload, change or remove images"

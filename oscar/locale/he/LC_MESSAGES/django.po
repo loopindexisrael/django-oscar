@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: django-oscar\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-23 17:09+0200\n"
-"PO-Revision-Date: 2015-05-20 16:31+0221\n"
+"PO-Revision-Date: 2015-05-20 20:05+0221\n"
 "Last-Translator:   <orih@loopindex.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/projects/p/django-oscar/language/he/)\n"
 "Language: he\n"
@@ -1590,7 +1590,7 @@ msgstr "לא ניתן להזמין מחדש את הזמנה מס' %(number)s מ�
 #: apps/customer/views.py:577
 #, python-format
 msgid "%(qty)d copies of '%(product)s' have been added to your basket"
-msgstr ""
+msgstr "%(qty)d פריטים של '%(product)s' התווספו לסל"
 
 #: apps/customer/views.py:581
 #, python-format
@@ -4398,6 +4398,8 @@ msgid ""
 "    <strong>%(title)s</strong> has been added to your basket.\n"
 "    "
 msgstr ""
+"\n"
+"<strong>%(title)s</strong> הוסף לסל הקניות."
 
 #: templates/oscar/basket/messages/addition.html:8
 #, python-format
@@ -4407,6 +4409,9 @@ msgid ""
 "    have been added to your basket.\n"
 "    "
 msgstr ""
+"\n"
+"<strong>%(quantity)s</strong> פריטים של <strong>%(title)s</strong>\n"
+"התווספו לסל."
 
 #: templates/oscar/basket/messages/line_restored.html:3
 #, python-format
@@ -4433,6 +4438,8 @@ msgid ""
 "            Your basket total is now <strong>%(total)s</strong>\n"
 "            "
 msgstr ""
+"\n"
+"סה\"כ שווי סל הקניות שלך הוא <strong>%(total)s</strong>"
 
 #: templates/oscar/basket/messages/new_total.html:22 templates/oscar/basket/partials/basket_quick.html:38 templates/oscar/partials/mini_basket.html:13
 msgid "View basket"
@@ -4555,7 +4562,7 @@ msgstr "כמות"
 
 #: templates/oscar/basket/partials/basket_quick.html:33 templates/oscar/basket/partials/basket_quick.html:35
 msgid "Total:"
-msgstr "סך הכל"
+msgstr "סך הכל:"
 
 #: templates/oscar/basket/partials/basket_totals.html:16 templates/oscar/checkout/thank_you.html:176
 msgid "Basket total (before discounts)"
@@ -7338,6 +7345,8 @@ msgid ""
 "                        Total: %(total)s\n"
 "                    "
 msgstr ""
+"\n"
+"סך הכל: %(total)s"
 
 #: templates/oscar/partials/nav_primary.html:38
 msgid "Browse store"

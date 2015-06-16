@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: django-oscar\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-23 17:09+0200\n"
-"PO-Revision-Date: 2015-05-20 20:05+0221\n"
+"PO-Revision-Date: 2015-06-16 11:52+0221\n"
 "Last-Translator:   <orih@loopindex.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/projects/p/django-oscar/language/he/)\n"
 "Language: he\n"
@@ -3679,7 +3679,7 @@ msgstr ""
 #: apps/partner/availability.py:89
 #, python-format
 msgid "a maximum of %(max)d can be bought"
-msgstr ""
+msgstr "ניתן לקנות עד %(max)d פריטים"
 
 #: apps/partner/availability.py:103
 msgid "In stock"

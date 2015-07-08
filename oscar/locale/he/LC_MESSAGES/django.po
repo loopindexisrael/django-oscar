@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: django-oscar\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-23 17:09+0200\n"
-"PO-Revision-Date: 2015-06-16 11:52+0221\n"
-"Last-Translator:   <orih@loopindex.com>\n"
+"PO-Revision-Date: 2015-07-08 16:52+0221\n"
+"Last-Translator:   <admin@example.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/projects/p/django-oscar/language/he/)\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
@@ -471,7 +471,7 @@ msgstr "המחיר של '%(product)s' עלה מ  %(old_price)s ל %(new_price)s 
 #: apps/basket/abstract_models.py:831
 #, python-format
 msgid "The price of '%(product)s' has decreased from %(old_price)s to %(new_price)s since you added it to your basket"
-msgstr ""
+msgstr "המחיר של '%(product)s' ירד מ- %(old_price)s ל- %(new_price)s מאז שהוספת אותו לסל"
 
 #: apps/basket/abstract_models.py:842 apps/order/abstract_models.py:713 apps/order/abstract_models.py:742 apps/order/abstract_models.py:847 apps/order/abstract_models.py:908
 msgid "Line"
@@ -520,7 +520,7 @@ msgstr "עקב מגבלות טכניות אין אפשרות לספק הזמנה
 
 #: apps/basket/forms.py:248
 msgid "This product cannot be added to the basket as its currency isn't the same as other products in your basket"
-msgstr ""
+msgstr "לא ניתן להוסיף את המוצר לסל בגלל שהמטבע שלו שונה מהמטבע של שאר המוצרים בסל"
 
 #: apps/basket/reports.py:18 apps/basket/reports.py:77
 msgid "User ID"
@@ -1169,7 +1169,7 @@ msgstr "יש להוסיף מוצרים לסל לפני סיום הקניה"
 #: apps/checkout/session.py:129
 #, python-format
 msgid "'%(title)s' is no longer available to buy (%(reason)s). Please adjust your basket to continue"
-msgstr ""
+msgstr "'%(title)s' אינו זמין יותר (%(reason)s). עדכנו את הסל בשביל להמשיך"
 
 #: apps/checkout/session.py:147
 msgid "Please either sign in or enter your email address"
@@ -1181,7 +1181,7 @@ msgstr "נא לבחור כתובת למשלוח"
 
 #: apps/checkout/session.py:180
 msgid "Your previously chosen shipping address is no longer valid.  Please choose another one"
-msgstr ""
+msgstr "הכתובת למשלוח שבחרת אינה זמינה יותר. ביחרו בבקשה כתובת אחרת"
 
 #: apps/checkout/session.py:190
 msgid "Please choose a shipping method"
@@ -4256,7 +4256,7 @@ msgstr ""
 
 #: core/phonenumber.py:155
 msgid "The phone number entered is not valid."
-msgstr ""
+msgstr "מספר הטלפון שהוזן אינו תקין."
 
 #: core/validators.py:45
 #, python-format

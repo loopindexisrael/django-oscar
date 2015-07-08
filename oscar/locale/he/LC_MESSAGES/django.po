@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: django-oscar\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-23 17:09+0200\n"
-"PO-Revision-Date: 2015-07-08 16:52+0221\n"
+"PO-Revision-Date: 2015-07-08 17:05+0221\n"
 "Last-Translator:   <admin@example.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/projects/p/django-oscar/language/he/)\n"
 "Language: he\n"
@@ -7505,13 +7505,13 @@ msgstr ""
 
 #: views/generic.py:192
 msgid "This is not a valid international phone format."
-msgstr ""
+msgstr "זה אינו מספר טלפון בינלאומי תקני"
 
 #: views/generic.py:203
 #, python-format
 msgid "This is not a valid local phone format for %s."
-msgstr ""
+msgstr "זה אינו מספר טלפון תקני עבור %s."
 
 #: views/generic.py:208
 msgid "This is not a valid local or international phone format."
-msgstr ""
+msgstr "זה אינו מספר טלפון מקומי או בינלאומי תקני."
